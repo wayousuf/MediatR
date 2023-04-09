@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRDemo", "MediatRDemo.csproj", "{B512F1D9-5903-40DA-865C-7C8A6A8DC85B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "..\DemoLibrary\DemoLibrary.csproj", "{8347B159-9903-4959-85C2-999A8D22F288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApi", "..\DemoApi\DemoApi.csproj", "{CA4512BC-F055-4FEF-9438-F9BC9F9D7175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B512F1D9-5903-40DA-865C-7C8A6A8DC85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B512F1D9-5903-40DA-865C-7C8A6A8DC85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B512F1D9-5903-40DA-865C-7C8A6A8DC85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B512F1D9-5903-40DA-865C-7C8A6A8DC85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8347B159-9903-4959-85C2-999A8D22F288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8347B159-9903-4959-85C2-999A8D22F288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8347B159-9903-4959-85C2-999A8D22F288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8347B159-9903-4959-85C2-999A8D22F288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4512BC-F055-4FEF-9438-F9BC9F9D7175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4512BC-F055-4FEF-9438-F9BC9F9D7175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4512BC-F055-4FEF-9438-F9BC9F9D7175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4512BC-F055-4FEF-9438-F9BC9F9D7175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {982E0443-6961-4DDD-BD72-DD9DD22914DD}
+	EndGlobalSection
+EndGlobal
